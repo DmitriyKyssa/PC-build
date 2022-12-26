@@ -1,8 +1,167 @@
+.container {
+    width: 1315px;
+    margin: 0 auto;
+}
+
 .main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background-image: url(../images/background/main-screen__bgc.png);
+}
 
-    background-image: url(/images/background/main-screen__bgc.png);
+.main__header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 84px 0 75px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu li {
+    padding-right: 55px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header__button {
+    padding: 10px 30px;
+    background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+    border-radius: 50px;
+    border: 0;
+}
+
+.header__button a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main__content {
+    padding-top: 190px;
+}
+
+.main__content-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    /* or 90px */
+
+    /* white */
+
+    color: #ffffff;
+}
+
+.countdown-timer {
+    display: flex;
+}
+.countdown-timer li {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    padding: 20px 30px;
+    background: #121212;
+    margin-right: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.countdown-timer-text {
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    opacity: 0.4;
+    text-transform: capitalize;
+}
+
+.main__footer {
+    margin-top: 190px;
+    width: 100%;
+    height: 130px;
+    background: #121212;
+}
+.main__footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.main__footer-progress-bar label {
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    opacity: 0.4;
+}
+
+.main__footer-students {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__footer-progress-bar{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main__footer-progress-bar progress{
+    width: 30vw;
+}
+
+.main__footer-students p {
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    opacity: 0.4;
+}
+
+.main__footer-progress-bar p{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    opacity: 0.4;
+}
+
+.main__footer-button {
+    padding: 10px 30px;
+    background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+}
+
+.main__footer-button a {
+    text-decoration: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* white */
+
+    color: #ffffff;
 }

@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>PC build</title>
   </head>
   <body>
     <section class="main">
       <header class="main__header">
         <div class="main__header-wrapper">
-          <img src="/images/logo/logo.svg" alt="" />
+          <a href="#"><img src="images/logo/logo.svg" alt="" /></a>
           <ul class="header__menu">
             <li><a href="#">Главная</a></li>
             <li><a href="#">Курсы</a></li>
@@ -21,31 +26,57 @@
             <li><a href="#">Рассылка</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
-          <button class="header__button">Зайти в кабинет</button>
+          <button class="header__button">
+            <a href="#">Зайти в кабинет</a>
+          </button>
         </div>
       </header>
       <div class="container">
         <div class="main__content">
           <h1 class="main__content-title">
-            Первый курс по компьютерной сборке
+            Первый курс <br />
+            по компьютерной сборке
           </h1>
           <div class="main__content-countdown">
             <ul class="countdown-timer">
-              <li>18 Дней</li>
-              <li>18 часов</li>
-              <li>18 минут</li>
-              <li>18 секунд</li>
+              <li>
+                18
+                <p class="countdown-timer-text">дней</p>
+              </li>
+              <li>
+                18
+                <p class="countdown-timer-text">часов</p>
+              </li>
+              <li>
+                18
+                <p class="countdown-timer-text">минут</p>
+              </li>
+              <li>
+                18
+                <p class="countdown-timer-text">секунд</p>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="main__footer">
+      </div>
+      <!-- <div class="main__footer">
+        <div class="container">
           <div class="main__footer-wrapper">
-            <button class="main__footer-button">Заказать курс</button>
-            <div class="main__footer-students"></div>
-            <div class="main__footer-progres-bar"></div>
+            <button class="main__footer-button"><a href="#">Заказать курс</a></button>
+            <div class="main__footer-students">
+              <p>Учеников всего:200</p>
+              <p>Успешно закончили курс: 190</p>
+            </div>
+            <div class="main__footer-progress-bar">
+              <label>Заработано учениками:</label>
+              <progress value="40" max="100">40%</progress>
+              <p>0$</p>
+              <p>100000$</p>
+            </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
+    <script src="/js/script.js"></script>
   </body>
 </html>
